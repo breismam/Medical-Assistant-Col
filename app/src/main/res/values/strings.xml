@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Salud APP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="olvidaste_tu_contra">Olvidaste tu contraseña</string>
+    <string name="button_login">Ingresar</string>
+    <string name="login_label_1">No tengo cuenta</string>
+</resources>
