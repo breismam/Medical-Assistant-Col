@@ -1,13 +1,10 @@
-package com.example.myapplication
+package com.example.myapplication.ui.activities
 
 import android.animation.Animator
-import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import com.example.myapplication.databinding.ActivitySplashBinding
-import java.util.*
 
 class SplashActivity : AppCompatActivity() {
 
@@ -24,23 +21,24 @@ class SplashActivity : AppCompatActivity() {
         binding.splashAnimation.playAnimation()
 
         binding.splashAnimation.addAnimatorListener(object : Animator.AnimatorListener {
-            override fun onAnimationStart(animation: Animator?) {
+            override fun onAnimationStart(p0: Animator) {
 
             }
 
-            override fun onAnimationEnd(animation: Animator?) {
-              val intent = Intent(applicationContext,LoginActivity::class.java)
+            override fun onAnimationEnd(p0: Animator) {
+                val intent = Intent(applicationContext, LoginActivity::class.java)
                 startActivity(intent)
                 finish()
             }
 
-            override fun onAnimationCancel(animation: Animator?) {
+            override fun onAnimationCancel(p0: Animator) {
 
             }
 
-            override fun onAnimationRepeat(animation: Animator?) {
+            override fun onAnimationRepeat(p0: Animator) {
 
             }
+
 
         })
 

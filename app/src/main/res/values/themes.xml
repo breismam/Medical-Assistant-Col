@@ -44,6 +44,7 @@
         <item name="cornerSize">@dimen/corner_lar</item>
     </style>
 
+
     <style name="Button.Mintic" parent="TextAppearance.MaterialComponents.Button">
         <item name="fontFamily">@font/lato_bold</item>
         <item name="android:textSize">@dimen/button_text_size</item>
@@ -54,6 +55,48 @@
         <item name="fontFamily">@font/lato_bold</item>
         <item name="android:textSize">@dimen/button_text_size</item>
 
+    </style>
+    <style name="TextBlue.Mintic" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/purple_500</item>
+
+    </style>
+
+    <style name="TextBlue2.Mintic" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textSize">@dimen/subtitle_size</item>
+        <item name="android:textColor">@color/purple_500</item>
+
+    </style>
+
+    <style name="TextSecundary.Mintic" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textSize">@dimen/subtitle_size</item>
+        <item name="android:textColor">@color/purple_700</item>
+
+    </style>
+
+    <style name="Title.Mintic" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontWeight">900</item>
+
+    </style>
+
+     <style name="Caption.Mintic" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/caption_text_size</item>
+         <item name="fontFamily">@font/lato</item>
+         <item name="android:textColor">@color/teal_200</item>
+     </style>
+    
+    <style name="cutImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+
+        
     </style>
     <style name="Theme.MyAplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 

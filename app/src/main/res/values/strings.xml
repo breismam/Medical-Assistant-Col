@@ -6,4 +6,29 @@
     <string name="olvidaste_tu_contra">Olvidaste tu contraseña</string>
     <string name="button_login">Ingresar</string>
     <string name="login_label_1">No tengo cuenta</string>
+    <string name="login_signup_label">!Registrate ahora</string>
+    <string name="email_error">Correo electrónico no valido</string>
+    <string name="password_error">Contraseña Invalida</string>
+    <string name="nombre_invalido">Nombre Invalido</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_signup_label">Crear Cuenta</string>
+    <string name="signup_label_1">Tengo cuenta</string>
+    <string name="signup_login_label">Iniciar sesión</string>
+    <string name="name_hint">Nombre</string>
+    <string name="male_label">Masculino</string>
+    <string name="female_label">Femenino</string>
+    <string name="another_label">Otro</string>
+    <string name="botton_forgot_label">Cambiar Contraseña</string>
+    <string name="home_label">Home</string>
+    <string name="location_label">Localización</string>
+    <string name="profile_label">Mi perfil</string>
+    <string name="specialist_label">Especialistas</string>
+    <string name="home_fragment_title">Cambia tu vida para mejorar</string>
+    <string name="fragment_home_subtitle">Agenda una cita y te ayudamos con el problema al que te enfrentas</string>
+    <string name="fragment_home_services">Nuestros servicios</string>
+    <string name="search_label">Buscar</string>
+    <string name="specialist_fragment_title">Nuestros especialistas</string>
+    <string name="specialist_fragment_subtitle">Agenda una cita con un especialista de tu preferencia</string>
+    <string name="login_error">Credenciales invalidas</string>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".ui.activities.SplashActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/splash_animation"
@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:lottie_rawRes="@raw/data"/>
+        app:lottie_rawRes="@raw/corazon_paleta"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,9 @@
-package com.example.myapplication
+package com.example.myapplication.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.myapplication.databinding.ActivityLoginBinding
-import com.example.myapplication.databinding.ActivitySplashBinding
+
 
 class LoginActivity : AppCompatActivity() {
 
@@ -14,4 +14,6 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
+
+
 }
